@@ -1,0 +1,3 @@
+<template>
+    {{ categoria.nome }}
+</template>

@@ -4,7 +4,7 @@
     export default {
         data() {
             return {
-                ingredientes: ['Alho', 'Manteiga', 'Orégano', 'aaaa']
+                ingredientes: []
             }
         },
         components: { SelecionarIngredientes }

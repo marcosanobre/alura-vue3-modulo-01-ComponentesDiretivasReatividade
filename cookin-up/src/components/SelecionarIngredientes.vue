@@ -27,7 +27,7 @@
 
         <ul class="categorias">
           <li v-for="categoria in categorias" :key="categoria.nome">
-            <CardCategoria />
+            <CardCategoria :categoria="categoria"/>
           </li>
         </ul>
 
